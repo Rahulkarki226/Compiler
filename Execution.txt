@@ -1,0 +1,5 @@
+ubuntu $ lex --version
+flex 2.6.4
+ubuntu $ lex practical1.l
+ubuntu $ gcc lex.yy.c
+ubuntu $ ./a.out
