@@ -1,5 +1,3 @@
-// Design a LEX Code to identify and print integer and float 
-// value in given Input pattern.
 %{
 #include<stdio.h>
 %}
