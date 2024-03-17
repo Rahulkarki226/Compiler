@@ -1,5 +1,3 @@
-//Design a LEX Code to identify and print valid Identifier 
-of C/C++ in given Input pattern. 
 %{
 #include<stdio.h>
 %}
