@@ -1,32 +1,19 @@
 %{
 #include <stdio.h>
 %}
-
-letter [a-zA-Z_]
-digit [0-9]
-identifier {letter}({letter}|{digit})*
-keyword "int"|"float"|"while"|"if"|"else"|"for"
-operator "="|"<="|"=="|"+"|"*"|"++"
-separator "{"|"}"|"("|")"|";"|","
-
 %%
-
-{keyword} {
-    printf("Keyword: %s\n", yytext);
+"int"|"float"|"while"|"if"|"else"|"for"|"return" {
+    printf("keyword: %s\n", yytext);
 }
-
-{identifier} {
+[a-zA-Z_][a-zA-Z_0-9]* {
     printf("Identifier: %s\n", yytext);
 }
-
-{operator} {
+"="|"<="|"=="|"+"|"*"|"++" {
     printf("Operator: %s\n", yytext);
 }
-
-{separator} {
+"{"|"}"|"("|")"|";"|"," {
     printf("Separator: %s\n", yytext);
 }
-
 .|\n {}
 
 %%
