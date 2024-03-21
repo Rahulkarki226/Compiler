@@ -2,7 +2,7 @@
 #include<stdio.h>
 %}
 %%
-^[a-zA-Z][a-zA-Z0-9]* { printf("Valid identifier");}
+^[a-zA-Z_][a-zA-Z0-9_]* { printf("Valid identifier");}
 .|\n {}
 %%
 int yywrap()
