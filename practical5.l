@@ -7,9 +7,8 @@
 
 %%
 
-[^\n\t ]+   { charCount += yyleng; wordCount++; }
-[ \t]+      { spaceCount++; }
-\n          { /* Do nothing */ }
+[^\t\n" "]+   { charCount += yyleng; wordCount++; }
+" "     { spaceCount++; }
 
 %%
 int yywrap() {
