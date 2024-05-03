@@ -12,3 +12,5 @@ This repository contains LEX programs for various tasks in compiler design.
 6. Replacing White Spaces in a File
 7. Removing Comments from C Code
 8. Extracting HTML Tags
+## After mid exam
+10. Lex code for even number of a.
