@@ -13,4 +13,4 @@ This repository contains LEX programs for various tasks in compiler design.
 7. Removing Comments from C Code
 8. Extracting HTML Tags
 ## After mid exam
-10. Lex code for even number of a.
+9. Lex code for even number of a.
