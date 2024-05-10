@@ -3,3 +3,11 @@ flex 2.6.4
 ubuntu $ lex practical1.l
 ubuntu $ gcc lex.yy.c
 ubuntu $ ./a.out
+
+
+Parser
+ubuntu $ apt install bison
+ubuntu $ yacc -d a.y
+ubuntu $ lex b.y
+ubuntu $ cc lex.yy.c y.tab.c -ll
+ubuntu $ ./a.out
