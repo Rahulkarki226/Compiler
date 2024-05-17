@@ -15,8 +15,10 @@ This repository contains LEX programs for various tasks in compiler design.
    
 ## After mid exam
 
-9. Lex code for even number of a.
+9.  Lex code for even number of a.
 10. Lex code for accepting even no. of a & b over input {a,b}
 11. Lex Code that accept string containing third last element as 'a' {input:abababa}
 12. Lex code that accept integer ,float & identifier
 13. Yacc-Lex code for +,-,* and / of integers with precedence specification explicitly.
+14. yacc-Lex code to convert infix expression to prefix expression.
+15. Yacc -Lex code for desh calculator.
