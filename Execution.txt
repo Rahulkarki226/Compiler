@@ -8,6 +8,6 @@ ubuntu $ ./a.out
 Parser
 ubuntu $ apt install bison
 ubuntu $ yacc -d a.y
-ubuntu $ lex b.y
+ubuntu $ lex b.l
 ubuntu $ cc lex.yy.c y.tab.c -ll
 ubuntu $ ./a.out
